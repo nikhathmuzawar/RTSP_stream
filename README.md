@@ -1,8 +1,8 @@
 # RTSP STREAM  
 Stream video from a rtsp url to a webpage using WebRTC.  
 ## TO USE  
-Replace the following line with the rtsp URL in main.py.    
-``RTSP_URL = "rtsp://rtspurl"``
+Replace the following line with the rtsp URL in main.py.  
+``RTSP_URL = "rtsp://rtspurl"``   
 Run main.py:  
 ``python3 main.py``  
 
