@@ -16,7 +16,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 RTSP_URL = "rtsp://localhost:8554/mystream"
 
 @app.get("/", response_class=HTMLResponse)
