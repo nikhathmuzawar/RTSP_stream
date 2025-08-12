@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-RTSP_URL = "rtsp://localhost:8554/mystream"
+RTSP_URL = "rtsp://192.168.144.100:8554/quality_h264"
 
 @app.get("/", response_class=HTMLResponse)
 async def index():
